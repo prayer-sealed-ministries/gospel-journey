@@ -531,6 +531,22 @@ textarea {
   color: var(--text-light);
 }
 
+.footer-credit {
+  margin: 0;
+  padding-top: 1rem;
+  border-top: 1px solid var(--border);
+  color: var(--text-muted);
+}
+
+.footer-credit,
+.footer-credit a {
+  font-size: 0.9rem;
+}
+
+.footer-credit a:hover {
+  color: var(--text-light);
+}
+
 .translation-banner {
   color: var(--accent);
   margin-bottom: 1rem;
