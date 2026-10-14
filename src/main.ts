@@ -447,6 +447,7 @@ app.innerHTML = `
     <nav class="footer-links" aria-label="Footer">
       ${renderNav(footerNav)}
     </nav>
+    <p class="footer-credit">Part of <a href="https://prayersealed.org/">Prayer Sealed Ministries</a></p>
   </footer>
 `;
 
