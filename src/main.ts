@@ -86,8 +86,8 @@ function pageHome(): string {
     <section class="hero section-pad" aria-labelledby="hero-title">
       <div class="hero-glow" aria-hidden="true"></div>
       <h1 id="hero-title">Welcome to the Gospel Journey</h1>
-      <p class="eyebrow" style="font-size:1.18rem;margin-bottom:0.5rem;">A path of hope, clarity, and rescue for all people</p>
-      <p class="hero-subtitle" style="font-size:1.25rem;color:var(--accent);font-weight:500;">Discover the story that changes everything.</p>
+      <p class="eyebrow">A path of hope, clarity, and rescue for all people</p>
+      <p class="hero-subtitle">Discover the story that changes everything.</p>
       <p class="hero-copy">From creation to the cross, from the empty tomb to a personal response, Gospel Journey helps you understand who Jesus is, why He came, and what it means to trust Him as Savior.</p>
       <div class="hero-actions">
         <a class="button button-primary" href="./journey.html">Begin Your Journey</a>
@@ -109,10 +109,10 @@ function pageHome(): string {
         </blockquote>
         <p>John 3:16 (KJV)</p>
       </article>
-      <div style="margin-top:2.2rem;max-width:540px;margin-left:auto;margin-right:auto;background:rgba(255,226,165,0.13);border-radius:14px;padding:1.1rem 1.3rem 1.2rem 1.3rem;box-shadow:0 1.5px 8px rgba(214,179,111,0.07);">
-        <h2 style="color:var(--accent-deep);font-size:1.18rem;margin-bottom:0.5rem;">Not sure what you believe?</h2>
-        <p style="color:var(--text);font-size:1.07rem;">You are welcome here. This journey is for the curious, the skeptical, the hurting, and the hopeful. Explore at your own pace. You are invited to discover the love and rescue of God in Jesus Christ.</p>
-      </div>
+      <aside class="welcome-card">
+        <h2>Not sure what you believe?</h2>
+        <p>You are welcome here. This journey is for the curious, the skeptical, the hurting, and the hopeful. Explore at your own pace. You are invited to discover the love and rescue of God in Jesus Christ.</p>
+      </aside>
     </section>
 
     <section class="section-pad home-blocks" aria-label="Home content blocks">
@@ -422,7 +422,6 @@ function renderPageContent(): string {
 }
 
 app.innerHTML = `
-  <a class="skip-link" href="#main-content">Skip to main content</a>
   <header class="site-header">
     <div class="header-shell">
       <a class="brand-kicker" href="./index.html" aria-label="Gospel Journey Home">Gospel Journey</a>
